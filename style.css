@@ -488,23 +488,31 @@ font-weight: 300;
 }
 
 .post .meta, .post .post-meta {
-	color: #777;
-	margin-top: 5px;
-	margin-bottom: 5px;
+color: #777;
+margin-bottom: 5px;
+border-top: solid 1px #ddd;
+padding-top: 5px;
+margin-top: 20px;
+border-bottom: solid 1px #ddd;
+padding-bottom: 5px;
+background: #F3F3F3;
+padding-left: 10px;
 }
 
 .post-meta {
-	border-top: 1px solid #DDDDDD;
-	padding-top: 3px;
+border-top: 1px solid #DDDDDD;
+border-bottom: 1px solid #DDDDDD;
+padding-top: 5px;
+padding-bottom: 5px;
 }
 
 .navigation {
-	background:#F3F3F3 none repeat scroll 0 0;
-	border-top:1px solid #DFDFDF;
-	margin-top:8px;
-	padding:3px 7px 4px 0;
-	float: left;
-	width: 100%;
+background: #F3F3F3 none repeat scroll 0 0;
+border-top: 1px solid #DFDFDF;
+border-bottom: 1px solid #DFDFDF;
+margin-top: 8px;
+padding: 3px 7px 4px 0;
+float: left;
 }
 
 .next {
