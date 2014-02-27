@@ -24,8 +24,8 @@
 						<h2 class="title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 					</div>
 					<div class="meta-post">
-							<i class="fa fa-hand-o-right"></i> Diterbitkan pada: <i class="fa fa-clock-o"></i> <?php the_time('j F Y'); echo ' at '; the_time('H:i'); ?>
-						</div>
+						<i class="fa fa-hand-o-right"></i> Diterbitkan pada: <i class="fa fa-clock-o"></i> <?php the_time('j F Y'); echo ' at '; the_time('H:i'); ?>
+					</div>
 					<?php the_excerpt(); ?>
 				</div>
 			</div>
