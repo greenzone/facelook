@@ -10,15 +10,15 @@ Modife desain dengan konsep perpaduan antara desain halaman Facebook dan Github.
 
 #Rincian Modifikasi
 
-*Panel themes ada dua pilihan dengan penambahan functions pada themes
-*Load CSS font icon dengan alamat <a href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">Font-Awesome</a>. Lebih lanjut kunjungi di halaman https://github.com/FortAwesome/Font-Awesome/
-*Penambahan jenis font "Anti Slab"
-*Penambahan beberapa icon dan images
-*Tampilan icon dan menu pada header layout
-*Edit pada sidebar dan fungsi widget
-*Edit pada template comment, searching, dan 404
+* Panel themes ada dua pilihan dengan penambahan functions pada themes
+* Load CSS font icon dengan alamat <a href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">Font-Awesome</a>. Lebih lanjut kunjungi di halaman https://github.com/FortAwesome/Font-Awesome/
+* Penambahan jenis font "Anti Slab"
+* Penambahan beberapa icon dan images
+* Tampilan icon dan menu pada header layout
+* Edit pada sidebar dan fungsi widget
+* Edit pada template comment, searching, dan 404
 
 #Petunjuk dan Intallasi
-*Download dalam bentuk zip dan upload lewat dashboard wordpress
-*Ukuran themes tidak begitu besar untuk meringankan dalam menjalankan website/ blog
-*Panel Themes ada 2, untuk yang satu dari bawaan basic themes dan satunya merupakan tambahan untuk fungsi Google Analityc, Profile User, dan Link Social Media.
+* Download dalam bentuk zip dan upload lewat dashboard wordpress
+* Ukuran themes tidak begitu besar untuk meringankan dalam menjalankan website/ blog
+* Panel Themes ada 2, untuk yang satu dari bawaan basic themes dan satunya merupakan tambahan untuk fungsi Google Analityc, Profile User, dan Link Social Media.
