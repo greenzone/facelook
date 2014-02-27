@@ -257,7 +257,7 @@ function theme_settings_page() {
           </form>
         </div>
         <div class="footer-credit">
-            <p>© Create by <a title="Greenhouse Project" href="http://www.greenboxindonesia.com" target="_blank" >Greenboxindonesia</a> |  News & Update Development on <a title="Greenhouse Project" href="http://status.hmi.web.id" target="_blank" >Official Blog Development HMI</a></p>
+            <p>© Create by <a title="Greenhouse Project" href="http://www.greenboxindonesia.com" target="_blank" >Greenboxindonesia</a> |  News & Update Development on <a title="Greenhouse Project" href="http://news.greenbox.web.id" target="_blank" >Official Blog Greenboxindonesia</a></p>
         </div>
     </div>
     <?php
