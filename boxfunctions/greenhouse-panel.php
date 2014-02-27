@@ -1,8 +1,8 @@
 <?php
 /**
  * Name: Panel Profile
- * GitHub URI: https://github.com/greenhouse47
- * Description: Panel Profile User
+ * GitHub URI: https://github.com/greenzone/facelook
+ * Description: Panel Themes
  * Author: Albert Sukmono
  * Twitter: @greenbox_id
  * Author website: http://www.greenboxindonesia.com
