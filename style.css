@@ -738,11 +738,9 @@ div.aligncenter {
    padding: 0 4px 5px;
    margin: 0;
 }
-/* Add new style
- * by Albert Sukmono
- *
- */
-.logo-header {
+
+/* Add new style by Albert Sukmono */
+.logo-header { 
 float: left;
 padding: 5px 15px 5px 0;
 border-right: solid 1px #ddd;
@@ -773,6 +771,7 @@ background: #E4E4E4;
 float: left;
 padding: 5px;
 margin-right: 12px;
+margin-top:3px;
 }
 .single-post-tumb {
 background: #fff;
