@@ -12,6 +12,7 @@
 	<link rel="alternate" type="application/rss+xml" href="<?php bloginfo('comments_rss2_url') ?>" title="<?php printf( __( '%s latest comments', 'sandbox' ), wp_specialchars( get_bloginfo('name'), 1 ) ) ?>" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url') ?>" />
 	<link rel="shortcut icon" href="<?php echo get_template_directory_uri();?>/ico/favicon.png">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<!--[if IE]>
 	<link rel="stylesheet" type="text/css" href="<?php echo get_bloginfo('template_directory').'/ie.css' ?>" />
 	<style type="text/css" media="screen">
