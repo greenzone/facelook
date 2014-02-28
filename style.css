@@ -41,23 +41,30 @@ border: 1px solid #ccc;
 border-radius: 3px;
 box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
 vertical-align: middle;
-font-size: 11px;
+font-size: 12px;
+/*---------*/
+width: 529px;
+height: 21px;
+margin: 5px;
 }
 
 input, textarea {
-	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
 }
 
 input[type=submit], input.submit {
-	background-color:#5F78AB;
-	border:1px solid #888888;
-	border-color:#26446E #152F5F #0C2253;
-	color:#FFFFFF;
-	text-shadow:0 1px 0 #3E5A88;
-	font-size:11px;
-	font-weight:bold;
-	padding: 3px 6px 4px;
-	text-align:center;
+background-color: #6084CE;
+border: 1px solid #888888;
+border-color: #396FB9;
+color: #FFFFFF;
+text-shadow: 0 1px 0 #3E5A88;
+font-size: 11px;
+font-weight: bold;
+padding: 3px 15px 4px;
+text-align: center;
+margin-bottom: 5px;
+margin-right: 5px;
+border-radius: 2px;
+cursor: pointer;
 }
 h1 {
   font-size: 25px;
@@ -579,14 +586,18 @@ font-weight: 300;
 }
 
 .index-comment{
-	background: #ECEFF5;
-	width: 533px;
-	float: left;
-	clear: both;
-	margin-top: 2px;
-	padding: 7px;
+background: #eee;
 }
-
+.content-comments {
+background: #fff;
+width: 523px;
+clear: both;
+float: left;
+margin-top: 4px;
+padding: 7px;
+border: solid 1px #ddd;
+margin-left: 4px;
+}
 .morecomments {
 	background: #ECEFF5 url(images/comment.gif) no-repeat scroll 7px 7px;
 }
@@ -595,12 +606,20 @@ font-weight: 300;
 	margin-left: 18px;
 }
 
+.form_login.ic-avatar {
+margin: 5px 12px 0px;
+}
+
+.form_submit {
+padding: 5px 0 3px 7px;
+}
+
 .ic-avatar {
 	float: left;
 }
 
 .ic-text {
-	width: 485px;
+	width: 477px;
 	float: right;
 }
 
@@ -625,28 +644,36 @@ font-weight: 300;
 }
 
 .comment-form input[type=text], #comment_form input[type=text], .comment-form textarea, #comment_form textarea {
-	border:1px solid #BDC7D8;
-	margin-bottom: 3px;
+	border:1px solid #DDD;
+	margin-bottom: 5px;
+	width: 457px;
 }
 
 .comment-form textarea, #comment_form textarea {
-	width: 352px;
+width: 528px;
+height: 89px;
 }
 
 .comment-form textarea.commenttextright, #comment_form textarea.commenttextright {
-	height:30px;
-	margin-left:5px;
-	width:310px;
+height: 29px;
+width: 467px;
+margin-top: 4px;
 }
 
 .form_submit_right {
-	text-align: right;
+float:right;
+margin-top: 7px;
+margin-bottom: 2px;
+}
 }
 
 textarea.respondtext {
-	border:1px solid #BDC7D8;
-	height:14px;
-	width:352px;
+border: 1px solid #D8D8D8;
+height: 14px;
+width: 530px;
+margin-left: 4px;
+margin-top: 4px;
+margin-bottom: 4px;
 }
 
 #footer {
