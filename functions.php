@@ -4,7 +4,7 @@
  * Facelook Themes interface design like github.com & Themes master From http://nazieb.com/
  * Development and Modife by Albert Sukmono
  */
- /*====================================*/
+
  /**
  * Load Another Functions.
  * Load themes function panel
