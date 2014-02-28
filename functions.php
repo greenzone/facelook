@@ -120,7 +120,7 @@ function slf_info() {
 add_action('admin_menu', 'slf_add_theme_page');
 function slf_add_theme_page() {
 	if(isset($_POST['slfsave'])) {
-		check_admin_referer('smells-like-facebook');
+		check_admin_referer('facelook');
 		
 		update_option('slf_sidebarad', (int)($_POST['slfsidebar'] == 1));
 		
@@ -165,7 +165,6 @@ function slf_add_theme_page() {
 /**
  * Custom_excerpt_length
  * Mambatasi tampilan content per kata.
- *
  */
 function get_excerpt($count){
   $permalink = get_permalink($post->ID);
@@ -175,13 +174,21 @@ function get_excerpt($count){
   return $excerpt;
 }
 
+ /**
+ * Support Thumbnail in post and page
+ */
+add_theme_support( 'post-thumbnails' );
+// Image size for single posts
+add_image_size( 'single-post-thumbnail', 250, 250 );
+//end
+
 function slf_theme_page() {
 	global $wpdb;
 	if ( isset( $_REQUEST['saved'] ) ) echo '<div id="message" class="updated fade"><p><strong>'.__('Options saved.').'</strong></p></div>'; ?>
 	<div class="wrap">
 		<h2>Facelook Options</h2>
 		<form action="<?php echo $_SERVER["REQUEST_URI"]; ?>" method="post">
-			<?php wp_nonce_field('smells-like-facebook'); ?>
+			<?php wp_nonce_field('facelook'); ?>
 			<table class="form-table">
 				<tr>
 					<?php $slfsidebar = get_option('slf_sidebarad'); ?>
