@@ -17,21 +17,21 @@ if ($comments) {
 	foreach ($comments as $comment){
 		if(get_comment_type() == "comment"){ ?>
 		<div class="index-comment comment">
-			<div class="ic-avatar"><?php echo get_avatar(get_comment_author_email(), '37'); ?></div>
-			<div class="ic-text">
-				<div class="ic-meta ic-author"><?php echo get_comment_author_link(); ?></div>
-				<div class="ic-content"><?php comment_text() ?></div>
-				<div class="ic-meta ic-date"><?php echo get_comment_date('j F y'); ?> at <?php echo get_comment_date('H:i'); ?></div>
-			</div>
+				<div class="ic-avatar"><?php echo get_avatar(get_comment_author_email(), '37'); ?></div>
+				<div class="ic-text">
+					<div class="ic-meta ic-author"><h2 class="title"><?php echo get_comment_author_link(); ?></h2></div>
+					<div class="ic-content"><?php comment_text() ?></div><br/>
+					<div class="ic-meta ic-date"><?php echo get_comment_date('j F y'); ?> at <?php echo get_comment_date('H:i'); ?></div>
+				</div>
 		</div>
 <?php	$comment_count++;
 		} else { ?>
 		<div class="index-comment">
-			<a name="#comment-<?php comment_ID() ?>">&nbsp;</a>
-			<div class="ic-text nofloat">
-				<div class="ic-meta"><?php echo get_comment_author_link(); ?> at <?php echo get_comment_date('H:i'); ?> on <?php echo get_comment_date('j F Y'); ?></div>
-				<div><?php comment_text() ?></div>
-			</div>
+				<a name="#comment-<?php comment_ID() ?>">&nbsp;</a>
+				<div class="ic-text nofloat">
+					<div class="ic-meta"><?php echo get_comment_author_link(); ?> at <?php echo get_comment_date('H:i'); ?> on <?php echo get_comment_date('j F Y'); ?></div>
+					<div><?php comment_text() ?></div>
+				</div>
 		</div>
 <?php 	$ping_count++;
 		}
