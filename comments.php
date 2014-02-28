@@ -17,12 +17,14 @@ if ($comments) {
 	foreach ($comments as $comment){
 		if(get_comment_type() == "comment"){ ?>
 		<div class="index-comment comment">
+			<div class="content-comments">
 				<div class="ic-avatar"><?php echo get_avatar(get_comment_author_email(), '37'); ?></div>
 				<div class="ic-text">
 					<div class="ic-meta ic-author"><h2 class="title"><?php echo get_comment_author_link(); ?></h2></div>
 					<div class="ic-content"><?php comment_text() ?></div><br/>
 					<div class="ic-meta ic-date"><?php echo get_comment_date('j F y'); ?> at <?php echo get_comment_date('H:i'); ?></div>
 				</div>
+			</div>
 		</div>
 <?php	$comment_count++;
 		} else { ?>
@@ -41,11 +43,11 @@ if ($comments) {
 	</div>
 	<span id="respond"></span>
 	<?php if($post->comment_status == 'open' && get_option('slf_ajax') == 1 && ($comment_count + $ping_count) != 0) { ?>
-		<div class="index-comment"><textarea class="respondtext single">Write a comment..</textarea></div><?php 
+		<div class="index-comment"><textarea class="respondtext single">Tulis Komentar disini..</textarea></div><?php 
 	} ?>
 	<div id="comment_form" class="index-comment" style="display: none">
 	<?php if($post->comment_status != 'open') { ?>
-		Comment form currently closed..
+		Komentar ditutup..
 	<?php } else { ?>
 		<form id="commentform" action="<?php bloginfo('wpurl') ?>/wp-comments-post.php" method="post">
 		<?php if($user_ID) { ?>
