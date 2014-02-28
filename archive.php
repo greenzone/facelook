@@ -26,6 +26,11 @@
 					<div class="meta-post">
 						<i class="fa fa-hand-o-right"></i>&nbsp;Diterbitkan pada:&nbsp;<i class="fa fa-clock-o"></i> <?php the_time('j F Y'); echo ' at '; the_time('H:i'); ?>
 					</div>
+					<div class="thumbnail-single-post">
+						<div class="single-post-tumb">
+							<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_post_thumbnail( array(100,100) ); ?></a>
+						</div>
+					</div>
 					<?php the_excerpt(); ?>
 				</div>
 			</div>
