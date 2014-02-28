@@ -15,7 +15,7 @@
 			</div>
 			<div class="thumbnail-single-post">
 				<div class="single-post-tumb">
-					<?php the_post_thumbnail( 'single-post-thumbnail' ); ?>
+					<?php the_post_thumbnail( 'medium' ); ?>
 				</div>
 			</div>
 			<?php the_content('(more..)'); ?>
