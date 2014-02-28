@@ -11,13 +11,18 @@
 				<h2 class="title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 			</div>
 			<div class="meta-post">
-				<i class="fa fa-hand-o-right"></i> Diterbitkan pada: <i class="fa fa-clock-o"></i> <?php the_time('j F Y'); echo ' at '; the_time('H:i'); ?>
+				<i class="fa fa-hand-o-right"></i>&nbsp;Diterbitkan pada:&nbsp;<i class="fa fa-clock-o"></i>&nbsp;<?php the_time('j F Y'); echo ' at '; the_time('H:i'); ?>
+			</div>
+			<div class="thumbnail-single-post">
+				<div class="single-post-tumb">
+					<?php the_post_thumbnail( 'single-post-thumbnail' ); ?>
+				</div>
 			</div>
 			<?php the_content('(more..)'); ?>
 			<div class="post-meta"> 
-				<i class="fa fa-paperclip"></i> Categories: <?php the_category(' - '); ?>&nbsp;
-				<i class="fa fa-tags"></i> Tags: <?php the_tags(''); ?>&nbsp;
-				<i class="fa fa-comments"></i> <a href="<?php the_permalink(); ?>#respond" class="respondlink notajax" id="respondlink-<?php echo $post->ID; ?>">Comments</a>
+				<i class="fa fa-paperclip"></i>&nbsp;Categories: <?php the_category(' - '); ?>&nbsp;
+				<i class="fa fa-tags"></i>&nbsp;Tags: <?php the_tags(''); ?>&nbsp;
+				<i class="fa fa-comments"></i>&nbsp;<a href="<?php the_permalink(); ?>#respond" class="respondlink notajax" id="respondlink-<?php echo $post->ID; ?>">Comments</a>
 			</div>
 			<!-- comment start--->
 			<?php comments_template(); ?>
