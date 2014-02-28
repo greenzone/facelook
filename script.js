@@ -110,7 +110,7 @@ if(typeof jQuery == "function") {
 					
 					stylesheet_uri = $("link[rel='stylesheet']:eq(0)").attr("href").split("/");
 					stylesheet_uri.length--;
-					img = "<img src='"+stylesheet_uri.join("/") + "/images/indicator_large.gif"+"' alt='Loading' />";
+					img = "<img style='margin-top:200px;text-align:center;' src='"+stylesheet_uri.join("/") + "/images/big_loading.gif"+"' alt='Loading' />";
 					$.scrollTo(0);
 					$("#post-container").html(img).load(href + " #posts", {}, function() {
 						if($("#post-container").html() == "") {
