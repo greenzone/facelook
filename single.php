@@ -20,7 +20,6 @@
 				<i class="fa fa-comments"></i> <a href="<?php the_permalink(); ?>#respond" class="respondlink notajax" id="respondlink-<?php echo $post->ID; ?>">Comments</a>
 			</div>
 			<!-- comment start--->
-			<div href="<?php the_permalink(); ?>#respond" class="respondlink notajax" id="respondlink-<?php echo $post->ID; ?>"></div>
 			<?php comments_template(); ?>
 			<?php if($post->comment_status == 'open' && get_option('slf_ajax') == 1 && $count != 0) { ?>
 					<div class="index-comment"><textarea class="respondtext">Write a comment..</textarea></div><?php 
@@ -38,7 +37,7 @@
 				<?php } else { ?>
 					<div class="form_input">
 						<input class="author focus" name="author" type="text" />
-						<label for="author">Name</label>
+						<label for="author">Nama</label>
 					</div>
 					<div class="form_input">
 						<input class="email" name="email" type="text" />
