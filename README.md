@@ -17,7 +17,7 @@ Modife desain dengan konsep perpaduan antara desain halaman Facebook dan Github.
 * Tampilan icon dan menu pada header layout
 * Edit pada sidebar dan fungsi widget
 * Edit pada template comment, searching, dan 404
-* Penambahan fungsi thumbnail pada management post
+* Penambahan fungsi thumbnail pada management post. Read more: http://codex.wordpress.org/Function_Reference/the_post_thumbnail
 
 #Petunjuk dan Intallasi
 * Download dalam bentuk zip dan upload lewat dashboard wordpress
