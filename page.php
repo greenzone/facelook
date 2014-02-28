@@ -6,7 +6,7 @@
 			<div class="post">
 				<div class="post-text">
 					<div class="title-post">
-						<div class="icon-title"><img src="<?php echo get_template_directory_uri();?>/images/judul.svg"></div>
+						<div class="icon-title"><img src="<?php echo get_template_directory_uri();?>/images/page.svg"></div>
 						<h2 class="title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 					</div>
 					<?php the_content('(more..)'); ?>
