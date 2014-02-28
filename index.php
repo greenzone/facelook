@@ -10,11 +10,11 @@
 					<h2 class="title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 				</div>
 				<div class="meta-post">
-					<i class="fa fa-hand-o-right"></i> Diterbitkan pada: <i class="fa fa-clock-o"></i> <?php the_time('j F Y'); echo ' at '; the_time('H:i'); ?>
+					<i class="fa fa-hand-o-right"></i>&nbsp;Diterbitkan pada:&nbsp;<i class="fa fa-clock-o"></i>&nbsp;<?php the_time('j F Y'); echo ' at '; the_time('H:i'); ?>
 				</div>
 				<?php echo get_excerpt(555); ?>
 				<div class="meta">
-					Categories: <?php the_category(' - '); ?>
+					<i class="fa fa-paperclip"></i>&nbsp;Categories:&nbsp;<?php the_category(' - '); ?>
 				</div>
 			</div>
 		</div>
