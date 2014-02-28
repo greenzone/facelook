@@ -16,8 +16,50 @@
 			<?php the_content('(more..)'); ?>
 			<div class="post-meta"> 
 				<i class="fa fa-paperclip"></i> Categories: <?php the_category(' - '); ?>&nbsp;
-				<i class="fa fa-tags"></i> <?php the_tags('Tags: '); ?>
+				<i class="fa fa-tags"></i> Tags: <?php the_tags(''); ?>&nbsp;
+				<i class="fa fa-comments"></i> <a href="<?php the_permalink(); ?>#respond" class="respondlink notajax" id="respondlink-<?php echo $post->ID; ?>">Comments</a>
 			</div>
+			<!-- comment start--->
+			<div href="<?php the_permalink(); ?>#respond" class="respondlink notajax" id="respondlink-<?php echo $post->ID; ?>"></div>
+			<?php comments_template(); ?>
+			<?php if($post->comment_status == 'open' && get_option('slf_ajax') == 1 && $count != 0) { ?>
+					<div class="index-comment"><textarea class="respondtext">Write a comment..</textarea></div><?php 
+				} ?>
+			
+			<div id="commentform-<?php echo $post->ID; ?>" class="index-comment comment-form" style="display:none;">
+			<?php if($post->comment_status != 'open') { ?>
+				Comment form currently closed..
+			<?php } else { ?>
+				<form action="<?php bloginfo('wpurl') ?>/wp-comments-post.php" method="post">
+				<?php if($user_ID) { ?>
+					<div class="form_login ic-avatar">
+							<?php echo get_avatar($user_email, '37'); ?>
+					</div>
+				<?php } else { ?>
+					<div class="form_input">
+						<input class="author focus" name="author" type="text" />
+						<label for="author">Name</label>
+					</div>
+					<div class="form_input">
+						<input class="email" name="email" type="text" />
+						<label for="email">Email</label>
+					</div>
+					<div class="form_input">
+						<input class="url" name="url" type="text" />
+						<label for="url">Website</label>
+					</div>
+				<?php } ?>
+					<div class="form_comment">
+						<textarea name="comment" class="focus <?php if($user_ID) { echo "commenttextright"; } ?>"></textarea>
+					</div>
+					<div class="form_submit<?php if ($user_ID) { echo "_right"; } ?>">
+						<input type="submit" name="submit" value="Comment" class="submit" />
+					</div>
+					<input type="hidden" name="comment_post_ID" value="<?php echo $post->ID; ?>" />
+				</form>
+			<?php } ?>
+			</div>
+			
 		</div>
 	</div>
 <?php endwhile; ?>
