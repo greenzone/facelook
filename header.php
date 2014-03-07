@@ -5,6 +5,15 @@
 	<meta http-equiv="content-type" content="<?php bloginfo('html_type') ?>; charset=<?php bloginfo('charset') ?>" />
 	<meta name="home" content="<?php bloginfo('url') ?>" />
 	<meta name="url" content="<?php bloginfo('wpurl') ?>" />
+	<meta name="keywords" content="<?php bloginfo('name'); ?>,greenboxindonesia,greenbox tim,personal site,catatan,take the future in your hands,greenbox.id,share knowledge">
+	<meta name="description" content="">
+	<meta name="author" content="<?php bloginfo('name'); ?>">
+	<meta name="copyright" content="<?php bloginfo('name'); ?>">
+	<meta name="robots" content="index, follow">
+	<meta http-equiv="cache-control" content="cache">
+	<meta http-equiv="content-language" content="id">
+	<meta property="og:description" 
+  	content="Jembatan untuk lebih mengenal lebih jauh dan berbagi antar satu dengan yang lain lewat media online sebagai jendela untuk dunia. Mengetahui lebih jauh dari aktualisasi informasi dalam postingan dan kebermanfaatan merupakan salah satu bentuk metode komunikasi antar satu dengan yang lain. Here i'm..." />
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url') ?>" />
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<?php wp_head() // For plugins ?>
