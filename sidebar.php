@@ -59,6 +59,9 @@
 			<div style="color:#999;font-weight:300;font-size:12px;">Ads</div>
 			<a href="http://www.greenboxindonesia.com" target="_blank"><img src="<?php bloginfo('template_directory') ?>/images/ads_gb.png" alt="Greenboxindonesia" width="150" /></a><br/>
 		</li>
+		<li class="widget">
+		<a href="http://www.chitika.com/publishers/apply?refid=aank84"><img style="width:150px;hight:auto;"src="http://images.chitika.net/ref_banners/250x250_using_adsense.gif" /></a>
+		</li>
 	</ul>
 	<ul>
 		<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar(2) ) : ?>
