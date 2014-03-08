@@ -19,6 +19,24 @@
 				</div>
 			</div>
 			<?php the_content('(more..)'); ?>
+			<!--- Add Adverdtise --->
+			<div style="border-top:solid 1px #ddd;padding-top:10px;">
+			<p style="font-size:11px;color:#A0A0A0;">Look another options:</p>
+			<script type="text/javascript">
+			  ( function() {
+				if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
+				var unit = {"publisher":"Aank84","width":550,"height":250,"sid":"Chitika Default"};
+				var placement_id = window.CHITIKA.units.length;
+				window.CHITIKA.units.push(unit);
+				document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
+				var s = document.createElement('script');
+				s.type = 'text/javascript';
+				s.src = '//cdn.chitika.net/getads.js';
+				try { document.getElementsByTagName('head')[0].appendChild(s); } catch(e) { document.write(s.outerHTML); }
+			}());
+			</script>
+			</div>
+			<!--- end --->
 			<div class="post-meta"> 
 				<i class="fa fa-paperclip"></i>&nbsp;Categories: <?php the_category(' - '); ?>&nbsp;
 				<i class="fa fa-tags"></i>&nbsp;Tags: <?php the_tags(''); ?>&nbsp;
