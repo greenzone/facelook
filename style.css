@@ -1,12 +1,18 @@
 /*
-THEME NAME: Facelook
-THEME URI: https://github.com/greenzone/facelook
-VERSION: 2.5
-AUTHOR: Albert Sukmono
-AUTHOR URI: http://albert.sukmono.web.id
-DESCRIPTION: The exact Facebook clone theme for Wordpress. Based on Facebook profile page. 3 columns or 2 columns available. Advanced Javascript & AJAX effect just like on Facebook also available. Autogrow comment box.
-TAGS: white, blue, two-columns, three-columns, theme-options, fixed-width, light
+Theme Name: Facelook
+Theme URI: 
+Github Theme URI: https://github.com/greenzone/facelook
+Description: A very basic theme for experimentation and learning
+Author: Albert Sukmono
+Author URI: http://albert.sukmono.web.id
+Description: Social Network with social coding on one place interface imagine
+Version: v1.0.0
+License:  GPL
+Tags: white, blue, two-columns, three-columns, theme-options, fixed-width, light
+
+A very barebones theme purely for me to learn about WordPress Themes
 */
+
 @font-face {
     font-family: 'Antic Slab';
     src: url('fonts/antic_slab/AnticSlab-Regular.ttf') format('truetype');
