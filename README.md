@@ -18,6 +18,7 @@ Modife desain dengan konsep perpaduan antara desain halaman Facebook dan Github.
 * Edit pada sidebar dan fungsi widget
 * Edit pada template comment, searching, dan 404
 * Penambahan fungsi thumbnail pada management post. Read more: http://codex.wordpress.org/Function_Reference/the_post_thumbnail
+* Penambahan function plugin <a href="https://github.com/greenzone/Theme-Updater">cek themes update</a> dengan settingan update mengambil dari repositori pada Github - Github Theme URI: https://github.com/greenzone/facelook
 
 #Petunjuk dan Intallasi
 * Download dalam bentuk zip dan upload lewat dashboard wordpress
