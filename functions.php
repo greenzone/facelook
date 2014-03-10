@@ -1,7 +1,7 @@
 <?php
 /**
  * Theme Functions
- * Facelook Themes interface design like github.com & Themes master From http://nazieb.com/
+ * Facelook Themes interface design like github.com
  * Development and Modife by Albert Sukmono
  */
 
@@ -11,6 +11,7 @@
  */
 
 require_once( trailingslashit( get_template_directory() ) . 'boxfunctions/greenhouse-panel.php'); // themes panel greenhouse
+require_once( trailingslashit( get_template_directory() ) . 'boxfunctions/theme_update/updater.php'); // check update themes from github repository
 
 $sidebars = (get_option('slf_sidebarad') == 1) ? 2 : 1;
 register_sidebars($sidebars);
